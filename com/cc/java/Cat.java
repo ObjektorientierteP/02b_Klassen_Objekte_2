@@ -4,11 +4,11 @@ public class Cat
 {
 
     //Eigenschaft (Properties) / Felder (attributes)
-    String name = "Arian";
-    String furColor = "Blue";
+    public String name;
+    public String furColor;
     
     //primitives
-    int age;
+    public int age;
     
     double dezimal = 1.2;
     float  ganzeZahl =  1;
