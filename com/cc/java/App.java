@@ -36,6 +36,9 @@ public class App {
         output(cat2.furColor);
         output(Integer.toString(cat2.age));
 
+        cat2.furColor = "grey";
+        output(cat2.furColor);
+
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());
 

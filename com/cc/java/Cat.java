@@ -14,7 +14,7 @@ public class Cat
     float  ganzeZahl =  1;
     boolean wahrheit = true;
     
-    
+    // Ein Konstruktur hat (keinen Rückgabetyp)
     public Cat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
