@@ -2,6 +2,8 @@ package com.cc.java;
 
 public class App {
     
+    private static Integer integer;
+
     public static void main(String[] args) {
 
         // Instanziierung  --> Erzeugen eines Objektes
@@ -32,12 +34,14 @@ public class App {
         Cat cat2 = new Cat("Arian Hormozfar", "Blue", 37);
 
         //2 String Ausgabe
-        output(cat2.name);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age));
+        output(cat2.getName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge()));
 
-        cat2.furColor = "grey";
-        output(cat2.furColor);
+        cat2.setAge(38);
+        output(Integer.toString(cat2.getAge()));
+        // cat2.furColor = "grey";
+        // output(cat2.furColor);
 
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());

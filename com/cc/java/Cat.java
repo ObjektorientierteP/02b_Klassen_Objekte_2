@@ -4,23 +4,45 @@ public class Cat
 {
 
     //Eigenschaft (Properties) / Felder (attributes)
-    public String name;
-    public String furColor;
+    private String name;
+    private String furColor;
     
     //primitives
-    public int age;
+    private int age;
     
-    double dezimal = 1.2;
-    float  ganzeZahl =  1;
-    boolean wahrheit = true;
     
-    // Ein Konstruktur hat (keinen Rückgabetyp)
+    // Ein Konstruktur hat (keinen Rückgabetyp
     public Cat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
         this.age = age;
     }
 
+
+    // Getter
+    public String getName() {
+        return name;
+    }
+    // Setter
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     // Rückgabetyp -- Cat
     public Cat getInstanceVariable(){
