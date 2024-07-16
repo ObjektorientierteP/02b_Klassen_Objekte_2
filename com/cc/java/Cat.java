@@ -15,6 +15,13 @@ public class Cat
     boolean wahrheit = true;
     
     
+    public Cat(String name, String furColor, int age) {
+        this.name = name;
+        this.furColor = furColor;
+        this.age = age;
+    }
+
+
     // Rückgabetyp -- Cat
     public Cat getInstanceVariable(){
         return this;
