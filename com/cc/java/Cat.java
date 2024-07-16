@@ -18,10 +18,14 @@ public class Cat
         this.age = age;
     }
 
-
     // Getter
     public String getName() {
-        return name;
+        if (getPermission()) {
+            return name;
+        } else {
+            return "Sorry, no permission!";
+        }
+        
     }
     // Setter
     public void setName(String name) {
@@ -42,6 +46,11 @@ public class Cat
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    private boolean getPermission(){
+        // return true;
+        return false;
     }
 
     // Rückgabetyp -- Cat
