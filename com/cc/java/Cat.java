@@ -6,7 +6,6 @@ public class Cat
     //Eigenschaft (Properties) / Felder (attributes)
     private String name;
     private String furColor;
-    
     //primitives
     private int age;
     
